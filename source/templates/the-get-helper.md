@@ -1,8 +1,8 @@
 ## The `{{get}}` Helper
 
-There might be times when you need to access properties on an object using a dynamic key. This is where the `{{get}}` helper is useful.
+The `{{get}}` helper is useful when you need to access properties on an object using a dynamic key.
 
-One use case could be if you were creating a table with dynamic columns:
+For example, to create a table with dynamic columns:
 
 ```handlebars
 <table>
